@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20210405-0654-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.20.0"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="LAPTOP-G1N0HTEQ"
+	OSRelease=" Personal"
+	OSVersion=" (Build 19042)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="12353"
+	TotalPhysicalMemory="8001"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2112"
+	>
+	<Testing>
+		<StartDateTime>Apr 05 15:54 [NON-UTF-8-BYTE-0xA2][NON-UTF-8-BYTE-0xA5]eCN[NON-UTF-8-BYTE-0xA9][NON-UTF-8-BYTE-0xF6]I[NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xBE][NON-UTF-8-BYTE-0xA9][NON-UTF-8-BYTE-0xF6] C[NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xCD]A[NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xAA][NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xF6]A</StartDateTime>
+		<StartTestTime>1617605686</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 05 15:54 [NON-UTF-8-BYTE-0xA2][NON-UTF-8-BYTE-0xA5]eCN[NON-UTF-8-BYTE-0xA9][NON-UTF-8-BYTE-0xF6]I[NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xBE][NON-UTF-8-BYTE-0xA9][NON-UTF-8-BYTE-0xF6] C[NON-UTF-8-BYTE-0xA1][NON-UTF-8-BYTE-0xCD]A[NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xAA][NON-UTF-8-BYTE-0xA8][NON-UTF-8-BYTE-0xF6]A</EndDateTime>
+		<EndTestTime>1617605686</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
