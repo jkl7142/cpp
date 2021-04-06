@@ -6,6 +6,17 @@ CMyString::~CMyString() {
     Release();
 }
 
+// 복사 생성자
+CMyString::CMyString(const CMyString &rhs) : m_pszData(NULL), m_nLength(0) {
+    this->SetString(rhs.GetString());
+}
+
+CMyString& CMyString::operator=(const CMyString &rhs) {
+    if (this != &rhs) this->SetString(rhs.GetString());
+
+    return *this;
+}
+
 int CMyString::SetString(const char* pszParam) {
     Release();
 
