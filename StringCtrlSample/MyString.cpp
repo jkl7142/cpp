@@ -17,6 +17,11 @@ CMyString& CMyString::operator=(const CMyString &rhs) {
     return *this;
 }
 
+// 痕発 持失切
+CMyString::CMyString(const char *pszParam) : m_pszData(NULL), m_nLength(0) {
+    SetString(pszParam);
+}
+
 int CMyString::SetString(const char* pszParam) {
     Release();
 

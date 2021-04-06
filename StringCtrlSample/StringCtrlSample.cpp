@@ -4,6 +4,11 @@
 #include "stdafx.h"
 #include "MyString.h"
 
+// assignment4 TestFunc()
+void TestFunc(const CMyString &strParam) {
+    cout << strParam << endl;
+}
+
 /* assignment2 TestFunc()
 void TestFunc(const CMyString &param) {
     cout << param.GetString() << endl;
@@ -12,7 +17,13 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment3 output
+    // assignment4 output
+    CMyString strData("Hello");
+
+    ::TestFunc(strData);
+    ::TestFunc(CMyString("Wrold"));
+
+    /* assignment3 output
     CMyString strData, strTest;
     strData.SetString("Hello");
     strTest.SetString("World");
@@ -24,6 +35,7 @@ int main(int argc, char* argv[]) {
     // 단순 대입 연산자 호출
     strNewData = strTest;
     cout << strNewData.GetString() << endl;
+    */
 
     /* assignment2 output
     CMyString strData;
