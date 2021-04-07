@@ -4,10 +4,19 @@
 #include "stdafx.h"
 #include "MyString.h"
 
-// assignment4 TestFunc()
+// assignment5 TestFunc()
+CMyString TestFunc(void) {
+    CMyString strTest("TestFunc() return");
+    cout << strTest << endl;
+
+    return strTest;
+}
+
+/* assignment4 TestFunc()
 void TestFunc(const CMyString &strParam) {
     cout << strParam << endl;
 }
+*/
 
 /* assignment2 TestFunc()
 void TestFunc(const CMyString &param) {
@@ -17,11 +26,15 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment4 output
+    // assignment5 output
+    TestFunc();
+
+    /* assignment4 output
     CMyString strData("Hello");
 
     ::TestFunc(strData);
     ::TestFunc(CMyString("Wrold"));
+    */
 
     /* assignment3 output
     CMyString strData, strTest;

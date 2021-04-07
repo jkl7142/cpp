@@ -15,6 +15,9 @@ public:
         return m_pszData;
     }
 
+    // 이동 생성자
+    CMyString(CMyString &&rhs);
+
     CMyString& operator=(const CMyString &rhs);
 
     int SetString(const char* pszParam);

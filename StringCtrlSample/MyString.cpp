@@ -22,6 +22,17 @@ CMyString::CMyString(const char *pszParam) : m_pszData(NULL), m_nLength(0) {
     SetString(pszParam);
 }
 
+// 이동 생성자
+CMyString::CMyString(CMyString &&rhs) : m_pszData(NULL), m_nLength(0) {
+    cout << "CMyString 이동 생성자 호출" << endl;
+
+    m_pszData = rhs.m_pszData;
+    m_nLength = rhs.m_nLength;
+
+    rhs.m_pszData = NULL;
+    rhs.m_nLength = 0;
+}
+
 int CMyString::SetString(const char* pszParam) {
     Release();
 
