@@ -4,13 +4,14 @@
 #include "stdafx.h"
 #include "MyString.h"
 
-// assignment5 TestFunc()
+/* assignment5 TestFunc()
 CMyString TestFunc(void) {
     CMyString strTest("TestFunc() return");
     cout << strTest << endl;
 
     return strTest;
 }
+*/
 
 /* assignment4 TestFunc()
 void TestFunc(const CMyString &strParam) {
@@ -26,8 +27,19 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment5 output
+    // assignment6 output
+    CMyString strLeft("Hello"), strRight("World"), strResult;
+
+    strResult = strLeft + strRight;
+    cout << strResult << endl;
+
+    cout << strLeft << endl;
+    strLeft += CMyString("World");
+    cout << strLeft << endl;
+
+    /* assignment5 output
     TestFunc();
+    */
 
     /* assignment4 output
     CMyString strData("Hello");

@@ -24,6 +24,12 @@ public:
     const char* GetString() const;
     void Release();
 
+    // assignment 6
+    int GetLength() const;
+    int Append(const char * pszParam);
+    CMyString operator+(const CMyString &rhs);
+    CMyString& operator+=(const CMyString &rhs);
+
 private:
     char* m_pszData;
 
