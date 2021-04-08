@@ -27,6 +27,10 @@ public:
     char& operator[](int nIndex);
     char operator[](int nIndex) const;
 
+    // 관계 연산자
+    int operator==(const CMyString &rhs);
+    int operator!=(const CMyString &rhs);
+
     int SetString(const char* pszParam);
     const char* GetString() const;
     void Release();

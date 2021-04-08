@@ -40,6 +40,27 @@ char CMyString::operator[](int nIndex) const {
     return m_pszData[nIndex];
 }
 
+// 관계 연산자
+int CMyString::operator==(const CMyString &rhs) {
+    if (m_pszData != NULL && rhs.m_pszData != NULL) {
+        if (strcmp(m_pszData, rhs.m_pszData) == 0) {
+            return 1;
+        }
+    }
+
+    return 0;
+}
+
+int CMyString::operator!=(const CMyString &rhs) {
+    if (m_pszData != NULL && rhs.m_pszData != NULL) {
+        if (strcmp(m_pszData, rhs.m_pszData) == 0) {
+            return 0;
+        }
+    }
+
+    return 1;
+}
+
 // 변환 생성자
 CMyString::CMyString(const char *pszParam) : m_pszData(NULL), m_nLength(0) {
     SetString(pszParam);

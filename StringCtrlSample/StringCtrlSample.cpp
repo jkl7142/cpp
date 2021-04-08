@@ -4,11 +4,12 @@
 #include "stdafx.h"
 #include "MyString.h"
 
-// assignment7 TestFunc()
+/* assignment7 TestFunc()
 void TestFunc(const CMyString &strParam) {
     cout << strParam[0] << endl;
     cout << strParam[strParam.GetLength() - 1] << endl;
 }
+*/
 
 /* assignment5 TestFunc()
 CMyString TestFunc(void) {
@@ -33,10 +34,30 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment7 output
+    // assignment8 output
+    CMyString strLeft("Test"), strRight("String");
+
+    if (strLeft == strRight) {
+        cout << "Same" << endl;
+    }
+    else {
+        cout << "Different" << endl;
+    }
+
+    strLeft = CMyString("String");
+
+    if (strLeft != strRight) {
+        cout << "Different" << endl;
+    }
+    else {
+        cout << "Same" << endl;
+    }
+
+    /* assignment7 output
     CMyString strParam("HelloWrold");
     cout << strParam << endl;
     TestFunc(strParam);
+    */
 
     /* assignment6 output
     CMyString strLeft("Hello"), strRight("World"), strResult;
