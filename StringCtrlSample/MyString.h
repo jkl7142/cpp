@@ -18,17 +18,21 @@ public:
     // 이동 생성자
     CMyString(CMyString &&rhs);
 
+    // 산술, 대입 연산자
     CMyString& operator=(const CMyString &rhs);
+    CMyString operator+(const CMyString &rhs);
+    CMyString& operator+=(const CMyString &rhs);
+
+    // 배열 연산자
+    char& operator[](int nIndex);
+    char operator[](int nIndex) const;
 
     int SetString(const char* pszParam);
     const char* GetString() const;
     void Release();
 
-    // assignment 6
     int GetLength() const;
     int Append(const char * pszParam);
-    CMyString operator+(const CMyString &rhs);
-    CMyString& operator+=(const CMyString &rhs);
 
 private:
     char* m_pszData;

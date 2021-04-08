@@ -11,6 +11,7 @@ CMyString::CMyString(const CMyString &rhs) : m_pszData(NULL), m_nLength(0) {
     this->SetString(rhs.GetString());
 }
 
+// 산술 & 대입 연산자
 CMyString& CMyString::operator=(const CMyString &rhs) {
     if (this != &rhs) this->SetString(rhs.GetString());
 
@@ -28,6 +29,15 @@ CMyString& CMyString::operator+=(const CMyString &rhs) {
     Append(rhs.GetString());
 
     return *this;
+}
+
+// 배열 연산자
+char& CMyString::operator[](int nIndex) {
+    return m_pszData[nIndex];
+}
+
+char CMyString::operator[](int nIndex) const {
+    return m_pszData[nIndex];
 }
 
 // 변환 생성자
