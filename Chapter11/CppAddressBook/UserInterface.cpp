@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "UserInterface.h"
 #include "MyList.h"
+#include "UserData.h"
 
 CUserInterface::CUserInterface(CMyList &rList) : m_List(rList) {
 
@@ -22,7 +23,7 @@ void CUserInterface::Add(void) {
     fflush(stdin);
     gets(szPhone);
 
-    m_List.AddNewNode(szName, szPhone);
+    m_List.AddNewNode(new CUserData(szName, szPhone));
 }
 
 int CUserInterface::PrintUI(void) {
@@ -44,12 +45,10 @@ void CUserInterface::Search(void) {
     fflush(stdin);
     gets(szName);
 
-    pNode = m_List.FindNode(szName);
+    pNode = static_cast<CUserData*>(m_List.FindNode(szName));
 
     if (pNode != NULL) {
-        cout << "[" << (int)&pNode << "] " <<
-        pNode->GetName() << "\t" << pNode->GetPhone() << " " << "[" <<
-        (pNode->GetNext()) << "]" << endl;
+        pNode->PrintNode();
     }
     else {
         puts("ERROR: 데이터를 찾을 수 없습니다.");
