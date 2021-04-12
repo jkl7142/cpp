@@ -104,4 +104,5 @@ CMakeFiles/CppAddressBook.dir/UserData.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\UserData.h
+ C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\UserData.h \
+ C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyNode.h

@@ -96,10 +96,24 @@ CMakeFiles/CppAddressBook.dir/MyList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppAddressBook.dir/MyList.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyList.cpp -o CMakeFiles\CppAddressBook.dir\MyList.cpp.s
 
+CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj: CMakeFiles/CppAddressBook.dir/flags.make
+CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj: ../MyNode.cpp
+CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj: CMakeFiles/CppAddressBook.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj -MF CMakeFiles\CppAddressBook.dir\MyNode.cpp.obj.d -o CMakeFiles\CppAddressBook.dir\MyNode.cpp.obj -c C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyNode.cpp
+
+CMakeFiles/CppAddressBook.dir/MyNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppAddressBook.dir/MyNode.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyNode.cpp > CMakeFiles\CppAddressBook.dir\MyNode.cpp.i
+
+CMakeFiles/CppAddressBook.dir/MyNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppAddressBook.dir/MyNode.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyNode.cpp -o CMakeFiles\CppAddressBook.dir\MyNode.cpp.s
+
 CMakeFiles/CppAddressBook.dir/UserData.cpp.obj: CMakeFiles/CppAddressBook.dir/flags.make
 CMakeFiles/CppAddressBook.dir/UserData.cpp.obj: ../UserData.cpp
 CMakeFiles/CppAddressBook.dir/UserData.cpp.obj: CMakeFiles/CppAddressBook.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppAddressBook.dir/UserData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppAddressBook.dir/UserData.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppAddressBook.dir/UserData.cpp.obj -MF CMakeFiles\CppAddressBook.dir\UserData.cpp.obj.d -o CMakeFiles\CppAddressBook.dir\UserData.cpp.obj -c C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\UserData.cpp
 
 CMakeFiles/CppAddressBook.dir/UserData.cpp.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/CppAddressBook.dir/UserData.cpp.s: cmake_force
 CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj: CMakeFiles/CppAddressBook.dir/flags.make
 CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj: ../UserInterface.cpp
 CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj: CMakeFiles/CppAddressBook.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj -MF CMakeFiles\CppAddressBook.dir\UserInterface.cpp.obj.d -o CMakeFiles\CppAddressBook.dir\UserInterface.cpp.obj -c C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\UserInterface.cpp
 
 CMakeFiles/CppAddressBook.dir/UserInterface.cpp.i: cmake_force
@@ -128,6 +142,7 @@ CMakeFiles/CppAddressBook.dir/UserInterface.cpp.s: cmake_force
 CppAddressBook_OBJECTS = \
 "CMakeFiles/CppAddressBook.dir/CppAddressBook.cpp.obj" \
 "CMakeFiles/CppAddressBook.dir/MyList.cpp.obj" \
+"CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj" \
 "CMakeFiles/CppAddressBook.dir/UserData.cpp.obj" \
 "CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj"
 
@@ -136,13 +151,14 @@ CppAddressBook_EXTERNAL_OBJECTS =
 
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/CppAddressBook.cpp.obj
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/MyList.cpp.obj
+CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/UserData.cpp.obj
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/UserInterface.cpp.obj
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/build.make
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/linklibs.rsp
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/objects1.rsp
 CppAddressBook.exe: CMakeFiles/CppAddressBook.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CppAddressBook.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CppAddressBook.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CppAddressBook.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,5 @@
-CMakeFiles/CppAddressBook.dir/MyList.cpp.obj: \
- C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyList.cpp \
+CMakeFiles/CppAddressBook.dir/MyIterator.cpp.obj: \
+ C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyIterator.cpp \
  C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\stdafx.h \
  c:\mingw\include\stdio.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
@@ -104,5 +104,5 @@ CMakeFiles/CppAddressBook.dir/MyList.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyList.h \
+ C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyIterator.h \
  C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyNode.h

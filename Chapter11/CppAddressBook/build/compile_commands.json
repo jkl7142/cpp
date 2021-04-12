@@ -11,6 +11,11 @@
 },
 {
   "directory": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\CppAddressBook.dir\\MyNode.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\Chapter11\\CppAddressBook\\MyNode.cpp",
+  "file": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/MyNode.cpp"
+},
+{
+  "directory": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\CppAddressBook.dir\\UserData.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\Chapter11\\CppAddressBook\\UserData.cpp",
   "file": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/UserData.cpp"
 },

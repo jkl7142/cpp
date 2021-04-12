@@ -176,6 +176,30 @@ MyList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/MyList.cpp.s
 .PHONY : MyList.cpp.s
 
+MyNode.obj: MyNode.cpp.obj
+.PHONY : MyNode.obj
+
+# target to build an object file
+MyNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/MyNode.cpp.obj
+.PHONY : MyNode.cpp.obj
+
+MyNode.i: MyNode.cpp.i
+.PHONY : MyNode.i
+
+# target to preprocess a source file
+MyNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/MyNode.cpp.i
+.PHONY : MyNode.cpp.i
+
+MyNode.s: MyNode.cpp.s
+.PHONY : MyNode.s
+
+# target to generate assembly for a file
+MyNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/MyNode.cpp.s
+.PHONY : MyNode.cpp.s
+
 UserData.obj: UserData.cpp.obj
 .PHONY : UserData.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... MyList.obj
 	@echo ... MyList.i
 	@echo ... MyList.s
+	@echo ... MyNode.obj
+	@echo ... MyNode.i
+	@echo ... MyNode.s
 	@echo ... UserData.obj
 	@echo ... UserData.i
 	@echo ... UserData.s

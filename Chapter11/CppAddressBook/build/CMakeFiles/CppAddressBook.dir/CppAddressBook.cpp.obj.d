@@ -8,11 +8,14 @@ CMakeFiles/CppAddressBook.dir/CppAddressBook.cpp.obj: \
  c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h c:\mingw\include\tchar.h \
  c:\mingw\include\string.h c:\mingw\include\strings.h \
- c:\mingw\include\wchar.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
+ c:\mingw\include\wchar.h c:\mingw\include\conio.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdlib.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
+ c:\mingw\include\stdlib.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
@@ -79,8 +82,6 @@ CMakeFiles/CppAddressBook.dir/CppAddressBook.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
- c:\mingw\include\stdlib.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdio \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cerrno \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
@@ -105,4 +106,5 @@ CMakeFiles/CppAddressBook.dir/CppAddressBook.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
  C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\UserInterface.h \
  C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyList.h \
+ C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\MyNode.h \
  C:\Users\jkl41\vscode\cppstudy\Chapter11\CppAddressBook\UserData.h
