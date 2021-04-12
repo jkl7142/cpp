@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "MyList.h"
 #include "UserData.h"
+#include "MyIterator.h"
 
 CMyList::CMyList(CMyNode *pHead) {
     // LoadList()
@@ -65,8 +66,20 @@ int CMyList::AddNewNode(CMyNode *pNewNode) {
     m_pHead->pNext = pNewNode;
 
     return 1;
+
+    /*
+    if (OnAddNewNode(pNewNode)) {
+        pNewNode->pNext = m_pHead->pNext;
+        m_pHead->pNext = pNewNode;
+
+        return 1;
+    }
+
+    return -1;
+    */
 }
 
+/* UI 설계상 제거
 void CMyList::PrintAll(void) {
     CMyNode *pTmp = m_pHead->pNext;
 
@@ -79,6 +92,7 @@ void CMyList::PrintAll(void) {
 
     _getch();
 }
+*/
 
 CMyNode* CMyList::FindNode(const char* pszKey) {
     CMyNode *pTmp = m_pHead->pNext;
@@ -124,4 +138,16 @@ void CMyList::ReleaseList(void) {
     }
 
     m_pHead = NULL;
+}
+
+CMyIterator CMyList::MakeIterator(void) {
+    CMyIterator it;
+    it.m_pCurrent = m_pHead->pNext;
+    it.m_pHead = m_pHead->pNext;
+
+    return it;
+}
+
+int CMyList::OnAddNewNode(CMyNode* pNewNode) {
+    return 1;
 }

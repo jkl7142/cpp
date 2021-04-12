@@ -152,6 +152,30 @@ CppAddressBook.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/CppAddressBook.cpp.s
 .PHONY : CppAddressBook.cpp.s
 
+MyIterator.obj: MyIterator.cpp.obj
+.PHONY : MyIterator.obj
+
+# target to build an object file
+MyIterator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/MyIterator.cpp.obj
+.PHONY : MyIterator.cpp.obj
+
+MyIterator.i: MyIterator.cpp.i
+.PHONY : MyIterator.i
+
+# target to preprocess a source file
+MyIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/MyIterator.cpp.i
+.PHONY : MyIterator.cpp.i
+
+MyIterator.s: MyIterator.cpp.s
+.PHONY : MyIterator.s
+
+# target to generate assembly for a file
+MyIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppAddressBook.dir\build.make CMakeFiles/CppAddressBook.dir/MyIterator.cpp.s
+.PHONY : MyIterator.cpp.s
+
 MyList.obj: MyList.cpp.obj
 .PHONY : MyList.obj
 
@@ -260,6 +284,9 @@ help:
 	@echo ... CppAddressBook.obj
 	@echo ... CppAddressBook.i
 	@echo ... CppAddressBook.s
+	@echo ... MyIterator.obj
+	@echo ... MyIterator.i
+	@echo ... MyIterator.s
 	@echo ... MyList.obj
 	@echo ... MyList.i
 	@echo ... MyList.s

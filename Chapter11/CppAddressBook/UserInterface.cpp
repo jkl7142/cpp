@@ -2,6 +2,7 @@
 #include "UserInterface.h"
 #include "MyList.h"
 #include "UserData.h"
+#include "MyIterator.h"
 
 CUserInterface::CUserInterface(CMyList &rList) : m_List(rList) {
 
@@ -23,7 +24,18 @@ void CUserInterface::Add(void) {
     fflush(stdin);
     gets(szPhone);
 
-    m_List.AddNewNode(new CUserData(szName, szPhone));
+    int nResult = m_List.AddNewNode(new CUserData(szName, szPhone));
+
+    if (nResult == 0) {
+        puts("ERROR: 이미 존재하는 데이터입니다.");
+
+        _getch();
+    }
+    else if (nResult == -1) {
+        puts("ERROR: 욕설을 이름으로 쓸 수 없습니다.");
+
+        _getch();
+    }
 }
 
 int CUserInterface::PrintUI(void) {
@@ -82,7 +94,7 @@ int CUserInterface::Run(void) {
             break;
 
         case 3: // Print All
-            m_List.PrintAll();
+            PrintAll();
             break;
 
         case 4: // Remove
@@ -92,4 +104,19 @@ int CUserInterface::Run(void) {
     }
 
     return nMenu;
+}
+
+
+void CUserInterface::PrintAll(void) {
+    // 리스트에 대한 열거자를 생성
+    CMyIterator it = m_List.MakeIterator();
+    CUserData *pNode = NULL;
+
+    // 열거자를 이용해 리스트 전체에 접근한다
+    while ((pNode = static_cast<CUserData*> (it.GetCurrent())) != NULL) {
+        pNode->PrintNode();
+        it.MoveNext();
+    }
+
+    _getch();
 }

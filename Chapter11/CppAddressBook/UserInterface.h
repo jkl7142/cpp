@@ -20,4 +20,6 @@ public:
     int PrintUI(void);
 
     int Run(void);
+
+    void PrintAll(void);
 };
