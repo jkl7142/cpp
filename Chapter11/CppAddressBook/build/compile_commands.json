@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\CppAddressBook.dir\\CppAddressBook.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\Chapter11\\CppAddressBook\\CppAddressBook.cpp",
+  "file": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/CppAddressBook.cpp"
+},
+{
+  "directory": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\CppAddressBook.dir\\MyList.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\Chapter11\\CppAddressBook\\MyList.cpp",
+  "file": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/MyList.cpp"
+},
+{
+  "directory": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\CppAddressBook.dir\\UserData.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\Chapter11\\CppAddressBook\\UserData.cpp",
+  "file": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/UserData.cpp"
+},
+{
+  "directory": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\CppAddressBook.dir\\UserInterface.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\Chapter11\\CppAddressBook\\UserInterface.cpp",
+  "file": "C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/UserInterface.cpp"
+}
+]

@@ -1,0 +1,3 @@
+C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/CMakeFiles/CppAddressBook.dir
+C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/CMakeFiles/edit_cache.dir
+C:/Users/jkl41/vscode/cppstudy/Chapter11/CppAddressBook/CMakeFiles/rebuild_cache.dir
