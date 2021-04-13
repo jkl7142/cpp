@@ -2,7 +2,8 @@
 //
 
 #include "stdafx.h"
-#include "MyString.h"
+//#include "MyString.h"
+#include "MyStringEx.h"
 
 /* assignment7 TestFunc()
 void TestFunc(const CMyString &strParam) {
@@ -34,7 +35,15 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment8 output
+    // assignment9 output
+    CMyStringEx strTest;
+    strTest.SetString("I am a boy.");
+    cout << strTest << endl;
+
+    int nIndex = strTest.Find("am");
+    cout << "Index: " << nIndex << endl;
+
+    /* assignment8 output
     CMyString strLeft("Test"), strRight("String");
 
     if (strLeft == strRight) {
@@ -52,6 +61,7 @@ int main(int argc, char* argv[]) {
     else {
         cout << "Same" << endl;
     }
+    */
 
     /* assignment7 output
     CMyString strParam("HelloWrold");

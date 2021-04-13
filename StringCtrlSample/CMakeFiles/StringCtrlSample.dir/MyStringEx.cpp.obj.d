@@ -1,5 +1,5 @@
-CMakeFiles/StringCtrlSample.dir/StringCtrlSample.cpp.obj: \
- C:\Users\jkl41\vscode\cppstudy\StringCtrlSample\StringCtrlSample.cpp \
+CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.obj: \
+ C:\Users\jkl41\vscode\cppstudy\StringCtrlSample\MyStringEx.cpp \
  C:\Users\jkl41\vscode\cppstudy\StringCtrlSample\stdafx.h \
  c:\mingw\include\stdio.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \

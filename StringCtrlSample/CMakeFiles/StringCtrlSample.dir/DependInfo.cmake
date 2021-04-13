@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/jkl41/vscode/cppstudy/StringCtrlSample/MyString.cpp" "CMakeFiles/StringCtrlSample.dir/MyString.cpp.obj" "gcc" "CMakeFiles/StringCtrlSample.dir/MyString.cpp.obj.d"
+  "C:/Users/jkl41/vscode/cppstudy/StringCtrlSample/MyStringEx.cpp" "CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.obj" "gcc" "CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.obj.d"
   "C:/Users/jkl41/vscode/cppstudy/StringCtrlSample/StringCtrlSample.cpp" "CMakeFiles/StringCtrlSample.dir/StringCtrlSample.cpp.obj" "gcc" "CMakeFiles/StringCtrlSample.dir/StringCtrlSample.cpp.obj.d"
   )
 
