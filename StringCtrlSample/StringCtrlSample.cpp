@@ -35,7 +35,11 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment10 output
+    // assignment11 output
+    CMyStringEx strLeft("Hello"), strRight("World");
+    cout << strLeft + strRight << endl;
+
+    /* assignment10 output
     CMyStringEx strTest;
 
     // 필터링 on
@@ -45,6 +49,7 @@ int main(int argc, char* argv[]) {
     // 필터링 off
     strTest.SetString("Hello");
     cout << strTest << endl;
+    */
 
     /* assignment9 output
     CMyStringEx strTest;
