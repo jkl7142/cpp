@@ -152,6 +152,30 @@ MyString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringCtrlSample.dir\build.make CMakeFiles/StringCtrlSample.dir/MyString.cpp.s
 .PHONY : MyString.cpp.s
 
+MyStringEx.obj: MyStringEx.cpp.obj
+.PHONY : MyStringEx.obj
+
+# target to build an object file
+MyStringEx.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringCtrlSample.dir\build.make CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.obj
+.PHONY : MyStringEx.cpp.obj
+
+MyStringEx.i: MyStringEx.cpp.i
+.PHONY : MyStringEx.i
+
+# target to preprocess a source file
+MyStringEx.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringCtrlSample.dir\build.make CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.i
+.PHONY : MyStringEx.cpp.i
+
+MyStringEx.s: MyStringEx.cpp.s
+.PHONY : MyStringEx.s
+
+# target to generate assembly for a file
+MyStringEx.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringCtrlSample.dir\build.make CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.s
+.PHONY : MyStringEx.cpp.s
+
 StringCtrlSample.obj: StringCtrlSample.cpp.obj
 .PHONY : StringCtrlSample.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... MyString.obj
 	@echo ... MyString.i
 	@echo ... MyString.s
+	@echo ... MyStringEx.obj
+	@echo ... MyStringEx.i
+	@echo ... MyStringEx.s
 	@echo ... StringCtrlSample.obj
 	@echo ... StringCtrlSample.i
 	@echo ... StringCtrlSample.s

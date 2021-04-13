@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/StringCtrlSample.dir/MyString.cpp.obj"
   "CMakeFiles/StringCtrlSample.dir/MyString.cpp.obj.d"
+  "CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.obj"
+  "CMakeFiles/StringCtrlSample.dir/MyStringEx.cpp.obj.d"
   "CMakeFiles/StringCtrlSample.dir/StringCtrlSample.cpp.obj"
   "CMakeFiles/StringCtrlSample.dir/StringCtrlSample.cpp.obj.d"
   "StringCtrlSample.exe"

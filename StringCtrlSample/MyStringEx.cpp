@@ -15,8 +15,22 @@ int CMyStringEx::Find(const char * pszParam) {
     //cout << (int)pszResult << endl;   // 15367930
 
     if (pszResult != NULL) {
-        return pszResult - GetString(); // ÁÖ¼Ò°ª : 15367930 - 15367928
+        return pszResult - GetString(); // ?? : 15367930 - 15367928
     }
 
     return -1;
-};
+}
+
+// ???
+int CMyStringEx::SetString(const char * pszParam) {
+    int nResult;
+
+    if (strcmp(pszParam, "?????") == 0) {
+        nResult = CMyString::SetString("????");
+    }
+    else {
+        nResult = CMyString::SetString(pszParam);
+    }
+
+    return nResult;
+}

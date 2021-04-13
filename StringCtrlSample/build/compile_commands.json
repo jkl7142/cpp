@@ -6,6 +6,11 @@
 },
 {
   "directory": "C:/Users/jkl41/vscode/cppstudy/StringCtrlSample/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\StringCtrlSample.dir\\MyStringEx.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\StringCtrlSample\\MyStringEx.cpp",
+  "file": "C:/Users/jkl41/vscode/cppstudy/StringCtrlSample/MyStringEx.cpp"
+},
+{
+  "directory": "C:/Users/jkl41/vscode/cppstudy/StringCtrlSample/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++11 -o CMakeFiles\\StringCtrlSample.dir\\StringCtrlSample.cpp.obj -c C:\\Users\\jkl41\\vscode\\cppstudy\\StringCtrlSample\\StringCtrlSample.cpp",
   "file": "C:/Users/jkl41/vscode/cppstudy/StringCtrlSample/StringCtrlSample.cpp"
 }

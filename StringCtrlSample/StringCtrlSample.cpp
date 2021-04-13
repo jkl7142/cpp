@@ -35,13 +35,25 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment9 output
+    // assignment10 output
+    CMyStringEx strTest;
+
+    // 필터링 on
+    strTest.SetString("멍멍이아들");
+    cout << strTest << endl;
+
+    // 필터링 off
+    strTest.SetString("Hello");
+    cout << strTest << endl;
+
+    /* assignment9 output
     CMyStringEx strTest;
     strTest.SetString("I am a boy.");
     cout << strTest << endl;
 
     int nIndex = strTest.Find("am");
     cout << "Index: " << nIndex << endl;
+    */
 
     /* assignment8 output
     CMyString strLeft("Test"), strRight("String");
