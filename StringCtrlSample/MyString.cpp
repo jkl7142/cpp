@@ -89,6 +89,9 @@ int CMyString::SetString(const char* pszParam) {
     strncpy(m_pszData, pszParam, sizeof(char)* (nLength + 1));
     m_nLength = nLength;
 
+    // 미래의 호출
+    OnSetString(m_pszData, m_nLength);
+
     return nLength;
 }
 
@@ -132,4 +135,8 @@ int CMyString::Append(const char * pszParam) {
     m_nLength = nLenCur + nLenParam;
 
     return m_nLength;
+}
+
+void CMyString::OnSetString(char * pszData, int nLength) {
+    
 }

@@ -35,21 +35,10 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment11 output
-    CMyStringEx strLeft("Hello"), strRight("World");
-    cout << strLeft + strRight << endl;
-
-    /* assignment10 output
+    // assignment12 output
     CMyStringEx strTest;
-
-    // 필터링 on
     strTest.SetString("멍멍이아들");
     cout << strTest << endl;
-
-    // 필터링 off
-    strTest.SetString("Hello");
-    cout << strTest << endl;
-    */
 
     /* assignment9 output
     CMyStringEx strTest;

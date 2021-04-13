@@ -38,6 +38,8 @@ public:
     int GetLength() const;
     int Append(const char * pszParam);
 
+    virtual void OnSetString(char * pszData, int nLength);
+
 private:
     char* m_pszData;
 
