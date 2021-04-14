@@ -2,6 +2,7 @@
 
 class CMyNode {
     friend class CMyList;
+    friend class CMyListEx;
 
 public:
     CMyNode(void);

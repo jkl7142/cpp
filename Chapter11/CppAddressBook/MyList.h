@@ -10,7 +10,7 @@ class CMyIterator;
 class CMyList {
 public:
     CMyList(CMyNode *pHead);
-    ~CMyList(void);
+    virtual ~CMyList(void);
 
 protected:
     void ReleaseList(void);

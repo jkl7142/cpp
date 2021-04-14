@@ -3,6 +3,7 @@
 #include "UserData.h"
 #include "MyIterator.h"
 
+
 CMyList::CMyList(CMyNode *pHead) {
     // LoadList()
     try
@@ -61,13 +62,8 @@ int CMyList::AddNewNode(CMyNode *pNewNode) {
 
         return 0;
     }
-
-    pNewNode->pNext = m_pHead->pNext;
-    m_pHead->pNext = pNewNode;
-
-    return 1;
-
-    /*
+    
+    // 미래에 정의된 함수 호출
     if (OnAddNewNode(pNewNode)) {
         pNewNode->pNext = m_pHead->pNext;
         m_pHead->pNext = pNewNode;
@@ -75,8 +71,8 @@ int CMyList::AddNewNode(CMyNode *pNewNode) {
         return 1;
     }
 
+
     return -1;
-    */
 }
 
 /* UI 설계상 제거

@@ -3,6 +3,7 @@
 #include "MyList.h"
 #include "UserData.h"
 #include "MyIterator.h"
+#include "MyListEx.h"
 
 CUserInterface::CUserInterface(CMyList &rList) : m_List(rList) {
 
