@@ -35,10 +35,16 @@ void TestFunc(const CMyString &param) {
 
 int main(int argc, char* argv[]) {
 
-    // assignment12 output
+    // assignment13 output
+    CMyString b("World"), c;
+    c = "Hello" + b;
+    cout << c << endl;
+
+    /* assignment12 output
     CMyStringEx strTest;
     strTest.SetString("¸Û¸ÛÀÌ¾Æµé");
     cout << strTest << endl;
+    */
 
     /* assignment9 output
     CMyStringEx strTest;

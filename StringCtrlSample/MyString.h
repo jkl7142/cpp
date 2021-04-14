@@ -22,6 +22,7 @@ public:
     CMyString& operator=(const CMyString &rhs);
     CMyString operator+(const CMyString &rhs);
     CMyString& operator+=(const CMyString &rhs);
+    friend CMyString operator+(const char *pszParam, const CMyString &strParam);
 
     // 배열 연산자
     char& operator[](int nIndex);

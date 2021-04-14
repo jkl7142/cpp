@@ -31,6 +31,14 @@ CMyString& CMyString::operator+=(const CMyString &rhs) {
     return *this;
 }
 
+// 연산자 함수 활용
+CMyString operator+(const char *pszParam, const CMyString &strParam) {
+    CMyString strResult(pszParam);
+    strResult.Append(strParam.m_pszData);
+
+    return strResult;
+}
+
 // 배열 연산자
 char& CMyString::operator[](int nIndex) {
     return m_pszData[nIndex];
