@@ -1,2 +1,7 @@
-*.cpp linguist-detectable=true
+* linguist-vendored
 *.c linguist-detectable=true
+*.cpp linguist-detectable=true
+*.make linguist-vendored
+*.cmake linguist-vendored
+*.ts linguist-vendored
+*.xml linguist-vendored
